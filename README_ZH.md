@@ -53,10 +53,10 @@
         <li><a href="#installation">安装</a></li>
       </ul>
     </li>
-    <li><a href="#usage">使用</a></li>
-    <li><a href="#roadmap">路线</a></li>
-    <li><a href="#contributing">贡献</a></li>
-    <li><a href="#license">许可</a></li>
+    <!-- <li><a href="#usage">使用</a></li> -->
+    <li><a href="#roadmap">导航</a></li>
+    <!-- <li><a href="#contributing">贡献</a></li>
+    <li><a href="#license">许可</a></li> -->
     <li><a href="#contact">联系我们</a></li>
     <!-- <li><a href="#acknowledgments">Acknowledgments</a></li> -->
   </ol>
@@ -90,7 +90,7 @@
 * EliSim
 * ElitePluginSDK -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -139,13 +139,13 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## 导航
 
-- [x] 概览
-- [x] 各节点介绍
-- [x] 整体运行原理和变量介绍
-- [x] 插件集成原理
-    - [x] 任务节点实现
-    - [x] 配置节点实现
-    - [x] 导航栏实现
+- [ ] 概览
+- [ ] 各节点介绍
+- [ ] 整体运行原理和变量介绍
+- [ ] 插件集成原理
+    - [ ] 任务节点实现
+    - [ ] 配置节点实现
+    - [ ] 导航栏实现
 - [ ] Elite Plugin新建项目
 - [ ] 第一个插件-LightUp
     - [ ] LightUp需求说明
