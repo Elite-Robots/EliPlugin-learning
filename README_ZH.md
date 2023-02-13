@@ -41,23 +41,24 @@
   <summary>主要内容</summary>
   <ol>
     <li>
-      <a href="#about-the-project">关于此工程</a>
+      <a href="#关于此项目">关于此项目</a>
       <!-- <ul>
         <li><a href="#built-with">构建</a></li>
       </ul> -->
     </li>
     <li>
-      <a href="#getting-started">开始</a>
+      <a href="#开始">开始</a>
       <ul>
-        <li><a href="#prerequisites">前置条件</a></li>
-        <li><a href="#installation">安装</a></li>
+      <li><a href="#克隆项目">克隆项目</a></li>
+        <li><a href="#前置条件">前置条件</a></li>
+        <li><a href="#导航">导航</a></li>
       </ul>
     </li>
     <!-- <li><a href="#usage">使用</a></li> -->
-    <li><a href="#roadmap">导航</a></li>
+    <!-- <li><a href="#导航">导航</a></li> -->
     <!-- <li><a href="#contributing">贡献</a></li>
     <li><a href="#license">许可</a></li> -->
-    <li><a href="#contact">联系我们</a></li>
+    <li><a href="#联系我们">联系我们</a></li>
     <!-- <li><a href="#acknowledgments">Acknowledgments</a></li> -->
   </ol>
 </details>
@@ -65,7 +66,7 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## 关于此项目
+## <p id="关于此项目">关于此项目</p>
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 此项目为艾利特CS插件开发教程，包含中英双语。开发者可通过此教程学习如何在艾利特CS系列机器人的虚拟机上，使用艾利特提供的SDK进行插件开发。最终将您的夹爪，视觉，传感器等任何末端工具，集成到艾利特CS示教器中。
@@ -95,14 +96,14 @@
 
 
 <!-- GETTING STARTED -->
-## 开始
+## <p id="开始">开始</p>
 
-克隆项目
+### <p id="克隆项目">克隆项目</p>
    ```sh
    git clone https://github.com/Elite-Robots/EliPlugin-learning.git
    ```
 
-### 前置条件
+### <p id="前置条件">前置条件</p>
 
 * 需具备Java语言基础知识
 * 需了解CS机器人的基本操作及安全知识
@@ -111,17 +112,17 @@
 <!-- ### 安装 -->
 
 
-
-<!-- 3. Install NPM packages
+<!-- 
+3. Install NPM packages
    ```sh
    npm install
    ```
 4. Enter your API in `config.js`
    ```js
    const API_KEY = 'ENTER YOUR API';
-   ```
+   ``` -->
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> -->
+<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 
 
@@ -137,7 +138,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## 导航
+### <p id="导航">导航</p>
 
 - [ ] 概览
 - [ ] 各节点介绍
@@ -188,11 +189,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 
 <!-- CONTACT -->
-## Contact
+## <p id="联系我们">联系我们</p>
 
-Zhang junjie - zhangjunjie@elibot.cn
+Li Ran - liran@elibot.cn
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
+项目链接: [https://github.com/Elite-Robots/EliPlugin-learning](https://github.com/Elite-Robots/EliPlugin-learning)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
