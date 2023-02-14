@@ -23,7 +23,7 @@
   <p align="center">
     This document is for the Elite-CS series robot plugin development training, and is designed to allow developers to quickly become familiar with the overall CS development process.
     <br />
-    <a href="https://github.com/Elite-Robots/EliPlugin-learning"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Elite-Robots/EliPlugin-learning/tree/main/Doc"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/Elite-Robots/EliPlugin-learning">View demo</a>
