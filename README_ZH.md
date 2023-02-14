@@ -191,7 +191,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## <p id="联系我们">联系我们</p>
 
-Li Ran - liran@elibot.cn
+Elite  -  eco@elibot.cn
 
 项目链接: [https://github.com/Elite-Robots/EliPlugin-learning](https://github.com/Elite-Robots/EliPlugin-learning)
 
