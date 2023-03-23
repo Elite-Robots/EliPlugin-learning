@@ -1,5 +1,4 @@
-
-<a name="readme-top"></a>
+`<a name="readme-top"></a>`
 
 <!-- [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -8,19 +7,18 @@
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url] -->
 
-
-
 <!-- PROJECT LOGO -->
+
 <br />
 
 <div align="center">
   <a href="https://github.com/Elite-Robots/EliPlugin-learning">
-    <img src="images/logo.png" alt="Logo" width="150" height="80">
+    <img src="images/logo.png" alt="Logo" width="210" height="70">
   </a>
 
 <h3 align="center">CS插件开发教学文档</h3>
 
-  <p align="center">
+<p align="center">
     本文档为艾利特CS系列机器人插件开发培训，旨在让开发者快速熟悉CS整体开发流程。
     <br />
     <a href="https://github.com/Elite-Robots/EliPlugin-learning"><strong>浏览文档 »</strong></a>
@@ -34,9 +32,8 @@
   </p>
 </div>
 
-
-
 <!-- TABLE OF CONTENTS -->
+
 <details>
   <summary>主要内容</summary>
   <ol>
@@ -63,18 +60,14 @@
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
-## <p id="关于此项目">关于此项目</p>
+
+## `<p id="关于此项目">`关于此项目`</p>`
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 此项目为艾利特CS插件开发教程，包含中英双语。开发者可通过此教程学习如何在艾利特CS系列机器人的虚拟机上，使用艾利特提供的SDK进行插件开发。最终将您的夹爪，视觉，传感器等任何末端工具，集成到艾利特CS示教器中。
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- ### 构建环境 -->
 
@@ -93,24 +86,22 @@
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-
-
 <!-- GETTING STARTED -->
-## <p id="开始">开始</p>
 
-### <p id="克隆项目">克隆项目</p>
-   ```sh
+## `<p id="开始">`开始`</p>`
+
+### `<p id="克隆项目">`克隆项目`</p>`
+
+```sh
    git clone https://github.com/Elite-Robots/EliPlugin-learning.git
-   ```
+```
 
-### <p id="前置条件">前置条件</p>
+### `<p id="前置条件">`前置条件`</p>`
 
 * 需具备Java语言基础知识
 * 需了解CS机器人的基本操作及安全知识
 
-
 <!-- ### 安装 -->
-
 
 <!-- 
 3. Install NPM packages
@@ -124,9 +115,8 @@
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-
-
 <!-- USAGE EXAMPLES -->
+
 <!-- ## Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
@@ -136,30 +126,28 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  -->
 
-
 <!-- ROADMAP -->
-### <p id="导航">导航</p>
+
+### `<p id="导航">`导航`</p>`
 
 - [ ] 概览
 - [ ] 各节点介绍
 - [ ] 整体运行原理和变量介绍
 - [ ] 插件集成原理
-    - [ ] 任务节点实现
-    - [ ] 配置节点实现
-    - [ ] 导航栏实现
+  - [ ] 任务节点实现
+  - [ ] 配置节点实现
+  - [ ] 导航栏实现
 - [ ] Elite Plugin新建项目
 - [ ] 第一个插件-LightUp
-    - [ ] LightUp需求说明
-    - [ ] LightUp基本结构
-    - [ ] LightUp View
-    - [ ] LightUp Contribution
+  - [ ] LightUp需求说明
+  - [ ] LightUp基本结构
+  - [ ] LightUp View
+  - [ ] LightUp Contribution
 - [ ] 插件部署
 
 提问及待更新的内容详见 [open issues](https://github.com/Elite-Robots/EliPlugin-learning/issues)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- CONTRIBUTING
 ## Contributing
@@ -177,19 +165,17 @@ Don't forget to give the project a star! Thanks again!
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-
-
 <!-- LICENSE -->
+
 <!-- ## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-
-
 <!-- CONTACT -->
-## <p id="联系我们">联系我们</p>
+
+## `<p id="联系我们">`联系我们`</p>`
 
 Elite  -  eco@elibot.cn
 
@@ -197,9 +183,8 @@ Elite  -  eco@elibot.cn
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 <!-- ACKNOWLEDGMENTS -->
+
 <!-- ## Acknowledgments
 
 * []()
@@ -208,10 +193,10 @@ Elite  -  eco@elibot.cn
 
 <!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
+
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
 [contributors-url]: https://github.com/Elite-Robots/EliPlugin-learning/contributors
 [forks-shield]: https://img.shields.io/github/forks/github_username/repo_name.svg?style=for-the-badge
