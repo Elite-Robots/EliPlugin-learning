@@ -1,11 +1,3 @@
-`<a name="readme-top"></a>`
-
-<!-- [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 <!-- PROJECT LOGO -->
 
@@ -62,7 +54,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## `<p id="about">`About the project`</p>`
+## About the project 
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 This project is a tutorial for Elite CS plugin development, including both Chinese and English docs. Developers can use this tutorial to learn how to develop plugins on the virtual machine of Elite CS series robots, using the SDK provided by Elite. Eventually integrate your grippers, vision, sensors, and any other end-arm-tools into the Elite CS teach pendant.
@@ -88,15 +80,15 @@ This project is a tutorial for Elite CS plugin development, including both Chine
 
 <!-- GETTING STARTED -->
 
-## `<p id="started">`Getting Started`</p>`
+## Getting Started 
 
-### `<p id="clone">`Built with`</p>`
+### Built with 
 
 ```sh
    git clone https://github.com/Elite-Robots/EliPlugin-learning.git
 ```
 
-### `<p id="prerequisites">`Prerequisites`</p>`
+### Prerequisites 
 
 * Basic knowledge of Java language is required
 * Basic knowledge of Elite CS robot operation and safety is required
@@ -128,7 +120,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 
-### `<p id="navigation">`Navigation`</p>`
+### Navigation 
 
 - [ ] Overview
 - [ ] Introduction To Node
@@ -175,7 +167,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 
-## `<p id="contact">`Contact`</p>`
+## Contact 
 
 Elite - eco@elibot.cn
 

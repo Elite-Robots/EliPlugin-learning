@@ -1,11 +1,3 @@
-`<a name="readme-top"></a>`
-
-<!-- [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url] -->
 
 <!-- PROJECT LOGO -->
 
@@ -62,7 +54,7 @@
 
 <!-- ABOUT THE PROJECT -->
 
-## `<p id="关于此项目">`关于此项目`</p>`
+## 关于此项目
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 此项目为艾利特CS插件开发教程，包含中英双语。开发者可通过此教程学习如何在艾利特CS系列机器人的虚拟机上，使用艾利特提供的SDK进行插件开发。最终将您的夹爪，视觉，传感器等任何末端工具，集成到艾利特CS示教器中。
@@ -88,15 +80,15 @@
 
 <!-- GETTING STARTED -->
 
-## `<p id="开始">`开始`</p>`
+## 开始
 
-### `<p id="克隆项目">`克隆项目`</p>`
+### 克隆项目
 
 ```sh
    git clone https://github.com/Elite-Robots/EliPlugin-learning.git
 ```
 
-### `<p id="前置条件">`前置条件`</p>`
+### 前置条件
 
 * 需具备Java语言基础知识
 * 需了解CS机器人的基本操作及安全知识
@@ -128,7 +120,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <!-- ROADMAP -->
 
-### `<p id="导航">`导航`</p>`
+### 导航
 
 - [ ] 概览
 - [ ] 各节点介绍
@@ -175,7 +167,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- CONTACT -->
 
-## `<p id="联系我们">`联系我们`</p>`
+## 联系我们
 
 Elite  -  eco@elibot.cn
 
