@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78b2e25f-14f7-463f-8c81-54b5e9f432f0" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2QaFuyTH1YegiLkxpSmhKLgNYze" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../05_配件_Accessories/01_力传感_ForceSensors/01_ATI/com.elibot.eco.ATI.forcesensor" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="start.sh" type="ShConfigurationType" temporary="true">
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/start.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/bash" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Shell Script.start.sh" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78b2e25f-14f7-463f-8c81-54b5e9f432f0" name="Default Changelist" comment="" />
+      <created>1685584012036</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1685584012036</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="802" y="140" key="#com.intellij.ide.util.MemberChooser" timestamp="1685697283313">
+      <screen x="65" y="24" width="1849" height="850" />
+    </state>
+    <state x="802" y="140" key="#com.intellij.ide.util.MemberChooser/65.24.1849.850@65.24.1849.850" timestamp="1685697283313" />
+    <state x="777" y="194" key="FileChooserDialogImpl" timestamp="1686022582545">
+      <screen x="65" y="24" width="1849" height="850" />
+    </state>
+    <state x="777" y="194" key="FileChooserDialogImpl/65.24.1849.850@65.24.1849.850" timestamp="1686022582545" />
+    <state width="1799" height="177" key="GridCell.Tab.0.bottom" timestamp="1686106631777">
+      <screen x="65" y="24" width="1849" height="850" />
+    </state>
+    <state width="1799" height="177" key="GridCell.Tab.0.bottom/65.24.1849.850@65.24.1849.850" timestamp="1686106631777" />
+    <state width="1799" height="177" key="GridCell.Tab.0.center" timestamp="1686106631774">
+      <screen x="65" y="24" width="1849" height="850" />
+    </state>
+    <state width="1799" height="177" key="GridCell.Tab.0.center/65.24.1849.850@65.24.1849.850" timestamp="1686106631774" />
+    <state width="1799" height="177" key="GridCell.Tab.0.left" timestamp="1686106631773">
+      <screen x="65" y="24" width="1849" height="850" />
+    </state>
+    <state width="1799" height="177" key="GridCell.Tab.0.left/65.24.1849.850@65.24.1849.850" timestamp="1686106631773" />
+    <state width="1799" height="177" key="GridCell.Tab.0.right" timestamp="1686106631775">
+      <screen x="65" y="24" width="1849" height="850" />
+    </state>
+    <state width="1799" height="177" key="GridCell.Tab.0.right/65.24.1849.850@65.24.1849.850" timestamp="1686106631775" />
+    <state x="653" y="195" key="run.anything.popup" timestamp="1685688779866">
+      <screen x="65" y="24" width="1849" height="850" />
+    </state>
+    <state x="653" y="195" key="run.anything.popup/65.24.1849.850@65.24.1849.850" timestamp="1685688779866" />
+  </component>
+</project>

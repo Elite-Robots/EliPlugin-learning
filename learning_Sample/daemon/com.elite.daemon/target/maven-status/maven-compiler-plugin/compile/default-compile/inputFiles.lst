@@ -1,0 +1,16 @@
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/configure/DaemonConfigurationNodeContribution.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/task/DaemonTaskNodeService.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/configure/DaemonConfigurationNodeView.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/style/Style.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/task/DaemonTaskNodeContribution.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/Activator.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/configure/DaemonConfigurationNodeService.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/utils/XmlRpcInterface.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/communicator/ScriptCommand.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/task/DaemonTaskNodeView.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/resource/ResourceSupport.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/resource/ImageHelper.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/daemon/Daemon.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/communicator/InterfaceTester.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/communicator/ScriptSender.java
+/home/elite/Desktop/com.elite.daemon/src/main/java/com/elite/template/impl/communicator/ScriptExporter.java

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <taskdef resource="net/sf/antcontrib/antlib.xml" classpathref="maven.dependency.classpath"/>
+  <if>
+    <available file="target/lightup-1.0-SNAPSHOT.jar"/>
+    <then>
+      <copy file="target/lightup-1.0-SNAPSHOT.jar" tofile="target/lightup-1.0-SNAPSHOT.plugin"/>
+    </then>
+  </if>
+</target>
+</project>

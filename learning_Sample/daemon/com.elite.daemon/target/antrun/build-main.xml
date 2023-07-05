@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <taskdef resource="net/sf/antcontrib/antlib.xml" classpathref="maven.dependency.classpath"/>
+  <if>
+    <available file="/home/elite/Desktop/com.elite.daemon/target/daemon-1.2.3.0.elico"/>
+    <then>
+      <copy file="/home/elite/Desktop/com.elite.daemon/target/daemon-1.2.3.0.elico" tofile="/home/elite/Desktop/CS_SIMULATOR_v2.3.0-test/EliRobot/.plugins/com.elite.daemon.jar"/>
+    </then>
+  </if>
+</target>
+</project>

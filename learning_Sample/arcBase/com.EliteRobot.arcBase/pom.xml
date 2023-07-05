@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.EliteRobot</groupId>
+    <artifactId>arcBase</artifactId>
+    <version>1.5-SNAPSHOT</version>
+
+    <name>${project.artifactId}</name>
+    <packaging>bundle</packaging>
+
+    <properties>
+        <!--********************************************************************-->
+        <!--   Note: Update this section with relevant metadata                -->
+        <!--         that comes along with your plugin                           -->
+        <!--********************************************************************-->
+        <!--******************* BEGINNING OF PLUG-IN METADATA *******************-->
+        <plugin.symbolicname>${project.groupId}.${project.artifactId}</plugin.symbolicname>
+        <plugin.bundleActivator>com.EliteRobot.arcBase.impl.Activator</plugin.bundleActivator>
+        <plugin.licenseType>Sample license</plugin.licenseType>
+        <plugin.vendor>ELITE ROBOTS</plugin.vendor>
+        <plugin.licenseIcon></plugin.licenseIcon>
+        <plugin.iconURL></plugin.iconURL>
+        <plugin.smallIconURL></plugin.smallIconURL>
+        <plugin.contactAddress>Your company address</plugin.contactAddress>
+        <plugin.copyright>Your copyright information</plugin.copyright>
+        <plugin.description>Your plug-in description</plugin.description>
+        <!--********************** END OF PLUG-IN METADATA **********************-->
+        <!--********************************************************************-->
+
+        <!--Current year for the copyright-->
+        <copyright.year>${maven.build.timestamp}</copyright.year>
+        <maven.build.timestamp.format>yyyy</maven.build.timestamp.format>
+
+
+        <!--The host, username and password of the robot to be used during deployment  "mvn install -Pdeploy_remote" -->
+        <!--Change this "192.168.1.1" to the robot IP address when using-->
+        <plugin.install.host>192.168.1.1</plugin.install.host>
+        <plugin.install.username>root</plugin.install.username>
+        <plugin.install.password>elibot</plugin.install.password>
+
+        <!--Deploy to local environment  "mvn install -Pdeploy_local" -->
+        <!--Modify local emulation path when deploying to local "EliRobot.home.dir"-->
+        <plugins.install.dir>/home/elite/Desktop/CS_SIMULATOR_v2.3.0-test/EliRobot</plugins.install.dir>
+
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
+            <version>6.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.elibot</groupId>
+            <artifactId>elibot-plugin-api</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>cn.elibot</groupId>
+            <artifactId>elibot-lang</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.0</version>
+                <configuration>
+                    <archive>
+                        <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.8.0</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                    <encoding>UTF-8</encoding>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-install-plugin</artifactId>
+                <version>2.5.2</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.1</version>
+                <configuration>
+                    <runOrder>alphabetical</runOrder>
+                    <useSystemClassLoader>false</useSystemClassLoader>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.0.2</version>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.felix</groupId>
+                <artifactId>maven-bundle-plugin</artifactId>
+                <version>2.4.0</version>
+                <extensions>true</extensions>
+                <inherited>true</inherited>
+                <executions>
+                    <execution>
+                        <id>bundle-manifest</id>
+                        <phase>process-classes</phase>
+                        <goals>
+                            <goal>manifest</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <instructions>
+                        <Bundle-Activator>${plugin.bundleActivator}</Bundle-Activator>
+                        <Bundle-Category>elibot.plug-in</Bundle-Category>
+                        <Bundle-Vendor>${plugin.vendor}</Bundle-Vendor>
+                        <Bundle-ContactAddress>${plugin.contactAddress}</Bundle-ContactAddress>
+                        <Bundle-Copyright>${plugin.copyright}</Bundle-Copyright>
+                        <Bundle-LicenseType>${plugin.licenseType}</Bundle-LicenseType>
+                        <Bundle-Description>${plugin.description}</Bundle-Description>
+                        <Bundle-IconURL>${plugin.licenseIcon}</Bundle-IconURL>
+                        <!--***************************************************************-->
+                        <Import-Package>
+                            cn.elibot.robot.*,
+                            *
+                        </Import-Package>
+                    </instructions>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-antrun-plugin</artifactId>
+                <version>1.8</version>
+                <executions>
+                    <execution>
+                        <id>pluginCopy</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>run</goal>
+                        </goals>
+                        <configuration>
+                            <target>
+                                <taskdef resource="net/sf/antcontrib/antlib.xml"
+                                         classpathref="maven.dependency.classpath"/>
+                                <if>
+                                    <available
+                                            file="target/${project.build.finalName}.jar"/>
+                                    <then>
+                                        <copy file="target/${project.build.finalName}.jar"
+                                              tofile="target/${project.build.finalName}.plugin"/>
+                                    </then>
+                                </if>
+                            </target>
+                        </configuration>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>ant-contrib</groupId>
+                        <artifactId>ant-contrib</artifactId>
+                        <version>1.0b3</version>
+                        <exclusions>
+                            <exclusion>
+                                <groupId>ant</groupId>
+                                <artifactId>ant</artifactId>
+                            </exclusion>
+                        </exclusions>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>deploy_remote</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>1.1</version>
+                        <executions>
+                            <execution>
+                                <id>remote-install-plugin</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <configuration>
+                                    <executable>sshpass</executable>
+                                    <commandlineArgs>-p ${plugin.install.password} scp -o StrictHostKeyChecking=no target/${project.artifactId}-${project.version}.jar ${plugin.install.username}@${plugin.install.host}:/home/elite/EliRobot/.plugins/${plugin.symbolicname}.jar</commandlineArgs>
+                                    <workingDirectory>.</workingDirectory>
+                                </configuration>
+                            </execution>
+                            <execution>
+                                <id>remote-restart-eliRobot</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <configuration>
+                                    <executable>sshpass</executable>
+                                    <commandlineArgs>-p ${plugin.install.password} ssh ${plugin.install.username}@${plugin.install.host} pkill java</commandlineArgs>
+                                    <workingDirectory>.</workingDirectory>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>deploy_local</id>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.codehaus.mojo</groupId>
+                        <artifactId>exec-maven-plugin</artifactId>
+                        <version>1.1</version>
+                        <executions>
+                            <execution>
+                                <id>local-install-plugin</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>exec</goal>
+                                </goals>
+                                <configuration>
+                                    <executable>cp</executable>
+                                    <commandlineArgs>target/${project.artifactId}-${project.version}.jar ${plugins.install.dir}/.plugins/${plugin.symbolicname}.jar</commandlineArgs>
+                                    <workingDirectory>.</workingDirectory>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>

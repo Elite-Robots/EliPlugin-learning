@@ -1,0 +1,13 @@
+com/elite/template/utils/XmlRpcInterface.class
+com/elite/template/impl/configure/DaemonConfigurationNodeContribution.class
+com/elite/template/impl/configure/DaemonConfigurationNodeService.class
+com/elite/template/impl/daemon/Daemon.class
+com/elite/template/impl/task/DaemonTaskNodeView$3$1.class
+com/elite/template/impl/task/DaemonTaskNodeView$1.class
+com/elite/template/impl/configure/DaemonConfigurationNodeView.class
+com/elite/template/impl/task/DaemonTaskNodeView$2.class
+com/elite/template/impl/task/DaemonTaskNodeView.class
+com/elite/template/impl/task/DaemonTaskNodeService.class
+com/elite/template/impl/task/DaemonTaskNodeContribution$1.class
+com/elite/template/impl/task/DaemonTaskNodeContribution.class
+com/elite/template/impl/task/DaemonTaskNodeView$3.class

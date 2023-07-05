@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1686624047408
+Build-Jdk: 1.8.0_292
+Built-By: elite
+Bundle-Activator: com.elite.template.impl.Activator
+Bundle-Category: elibot.plug-in
+Bundle-ContactAddress: Your company address
+Bundle-Copyright: Your copyright information
+Bundle-Description: Your plugin description
+Bundle-LicenseType: Sample license
+Bundle-ManifestVersion: 2
+Bundle-Name: daemon
+Bundle-SymbolicName: com.elite.daemon
+Bundle-Vendor: Your company
+Bundle-Version: 1.2.3.0
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.intellij.uiDesigner.core;version="1.2.3";uses:="java
+ x.swing",com.elite.template.utils;version="1.2.3"
+Import-Package: cn.elibot.robot.commons.lang.resource;version="[1.2,2)",
+ cn.elibot.robot.plugin.contribution.configuration;version="[1.2,2)",cn.
+ elibot.robot.plugin.contribution.daemon;version="[1.2,2)",cn.elibot.rob
+ ot.plugin.contribution.task;version="[1.2,2)",cn.elibot.robot.plugin.do
+ main;version="[1.2,2)",cn.elibot.robot.plugin.domain.data;version="[1.2
+ ,2)",cn.elibot.robot.plugin.domain.function;version="[1.2,2)",cn.elibot
+ .robot.plugin.domain.robot;version="[1.2,2)",cn.elibot.robot.plugin.dom
+ ain.script;version="[1.2,2)",cn.elibot.robot.plugin.domain.task;version
+ ="[1.2,2)",cn.elibot.robot.plugin.ui;version="[1.2,2)",cn.elibot.robot.
+ plugin.ui.model;version="[1.2,2)",com.elite.template.utils;version="[1.
+ 2,2)",javax.swing,org.apache.xmlrpc,org.apache.xmlrpc.client,org.osgi.f
+ ramework;version="[1.8,2)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.2.0.201903051501

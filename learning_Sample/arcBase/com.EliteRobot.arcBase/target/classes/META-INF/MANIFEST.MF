@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1685698991477
+Build-Jdk: 1.8.0_292
+Built-By: elite
+Bundle-Activator: com.EliteRobot.arcBase.impl.Activator
+Bundle-Category: elibot.plug-in
+Bundle-ContactAddress: Your company address
+Bundle-Copyright: Your copyright information
+Bundle-Description: Your plug-in description
+Bundle-LicenseType: Sample license
+Bundle-ManifestVersion: 2
+Bundle-Name: arcBase
+Bundle-SymbolicName: com.EliteRobot.arcBase
+Bundle-Vendor: ELITE ROBOTS
+Bundle-Version: 1.5.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Import-Package: cn.elibot.robot.commons.lang;version="[1.0,2)",cn.elibot
+ .robot.commons.lang.resource;version="[1.0,2)",cn.elibot.robot.plugin.c
+ ontribution.configuration;version="[1.0,2)",cn.elibot.robot.plugin.cont
+ ribution.task;version="[1.0,2)",cn.elibot.robot.plugin.dialog;version="
+ [1.0,2)",cn.elibot.robot.plugin.domain;version="[1.0,2)",cn.elibot.robo
+ t.plugin.domain.data;version="[1.0,2)",cn.elibot.robot.plugin.domain.io
+ ;version="[1.0,2)",cn.elibot.robot.plugin.domain.robot;version="[1.0,2)
+ ",cn.elibot.robot.plugin.domain.script;version="[1.0,2)",cn.elibot.robo
+ t.plugin.domain.task;version="[1.0,2)",cn.elibot.robot.plugin.domain.ta
+ sk.undoredo;version="[1.0,2)",cn.elibot.robot.plugin.ui;version="[1.0,2
+ )",cn.elibot.robot.plugin.ui.model;version="[1.0,2)",javax.swing,javax.
+ swing.border,org.osgi.framework;version="[1.8,2)"
+Tool: Bnd-2.1.0.20130426-122213
